@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:tcc/app/models/anotacoes_model.dart';
 
@@ -24,8 +25,8 @@ class _HomeViewState extends State<HomeView> {
               backgroundColor: const Color.fromARGB(255, 0, 0, 0),
               bottom: const TabBar(
                 indicatorColor: Colors.transparent,
-                unselectedLabelColor: Colors.white,
-                labelColor: Colors.red,
+                unselectedLabelColor: Color.fromARGB(255, 104, 104, 104),
+                labelColor: Color.fromARGB(255, 196, 181, 52),
                 tabs: [
                   Tab(
                       icon: Icon(
@@ -85,6 +86,7 @@ class _HomeViewState extends State<HomeView> {
                 counter++;
               });
             },
+            backgroundColor: const Color.fromARGB(255, 196, 181, 52),
             child: const Icon(Icons.add),
           ),
         ),
