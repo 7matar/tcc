@@ -23,17 +23,20 @@ class _HomeViewState extends State<HomeView> {
             child: AppBar(
               backgroundColor: const Color.fromARGB(255, 0, 0, 0),
               bottom: const TabBar(
+                indicatorColor: Colors.transparent,
+                unselectedLabelColor: Colors.white,
+                labelColor: Colors.red,
                 tabs: [
                   Tab(
                       icon: Icon(
                     Icons.edit_note,
-                    color: Color.fromARGB(255, 72, 88, 39),
+                    //color: Color.fromARGB(255, 72, 88, 39),
                     size: 35,
                   )),
                   Tab(
                       icon: Icon(
                     Icons.note_add_outlined,
-                    color: Color.fromARGB(255, 72, 88, 39),
+                    // color: Color.fromARGB(255, 72, 88, 39),
                     size: 30,
                   )),
                 ],
