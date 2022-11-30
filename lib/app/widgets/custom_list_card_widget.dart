@@ -34,7 +34,6 @@ class CustomListCardWidget extends StatelessWidget {
               Text(
                 anotacao.title,
                 style: Theme.of(context).textTheme.headline6,
-                softWrap: true,
                 overflow: TextOverflow.ellipsis,
                 maxLines: 1,
               ),
@@ -45,6 +44,8 @@ class CustomListCardWidget extends StatelessWidget {
               Text(
                 anotacao.date,
                 style: Theme.of(context).textTheme.subtitle2,
+                overflow: TextOverflow.ellipsis,
+                maxLines: 1,
               ),
             ],
           ),
