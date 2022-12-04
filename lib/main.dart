@@ -40,9 +40,17 @@ class MyApp extends StatelessWidget {
             color: Color.fromARGB(100, 255, 255, 255),
             fontSize: 12,
           ),
+          subtitle1: TextStyle(
+            color: Color.fromARGB(100, 255, 255, 255),
+            fontSize: 13,
+          ),
           headline5: TextStyle(
             color: Color.fromARGB(255, 255, 255, 255),
             fontSize: 28,
+          ),
+          headline4: TextStyle(
+            color: Color.fromARGB(255, 209, 207, 207),
+            fontSize: 14,
           ),
         ),
         highlightColor: Colors.transparent,
