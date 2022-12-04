@@ -34,6 +34,10 @@ class DetailsPageAnotacoes extends StatelessWidget {
                   decoration: const InputDecoration(
                     border: InputBorder.none,
                     hintText: 'Título',
+                    hintStyle: TextStyle(
+                      color: Color.fromARGB(255, 48, 48, 48),
+                      fontSize: 26,
+                    ),
                   ),
                   maxLines: null,
                   keyboardType: TextInputType.multiline,
@@ -50,7 +54,11 @@ class DetailsPageAnotacoes extends StatelessWidget {
                   scrollPhysics: const NeverScrollableScrollPhysics(),
                   decoration: const InputDecoration(
                     border: InputBorder.none,
-                    hintText: 'Anotação',
+                    hintText: 'Comece a escrever',
+                    hintStyle: TextStyle(
+                      color: Color.fromARGB(255, 48, 48, 48),
+                      fontSize: 16,
+                    ),
                     constraints: BoxConstraints(
                       maxHeight: double.infinity,
                       minHeight: 200,
@@ -102,6 +110,10 @@ class DetailsPageTemplates extends StatelessWidget {
                   decoration: const InputDecoration(
                     border: InputBorder.none,
                     hintText: 'Título',
+                    hintStyle: TextStyle(
+                      color: Color.fromARGB(255, 48, 48, 48),
+                      fontSize: 26,
+                    ),
                   ),
                   maxLines: null,
                   keyboardType: TextInputType.multiline,
@@ -119,6 +131,10 @@ class DetailsPageTemplates extends StatelessWidget {
                   decoration: const InputDecoration(
                     border: InputBorder.none,
                     hintText: 'Comece a escrever',
+                    hintStyle: TextStyle(
+                      color: Color.fromARGB(255, 48, 48, 48),
+                      fontSize: 16,
+                    ),
                     constraints: BoxConstraints(
                       maxHeight: double.infinity,
                       minHeight: 200,
